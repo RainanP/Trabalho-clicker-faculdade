@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    background-image: url(assets/imagens/fundo.jpg);
+    flex-direction: column;
+}
+
+.janja {
+    width: 200px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.janja:hover{
+    transform: scale(0.98);
+}
+
+.janja:active {
+    transform: scale(0.9);
+}
+
+h1 {
+    color: red;
+    font-size: 50px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.upgrades {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    gap: 20px;
+}
+
+.upgrade {
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    width: 200px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.upgrade:hover{
+    transform: scale(0.95);
+}
+
+.upgrade:active{
+    transform: scale(0.8);
+}
